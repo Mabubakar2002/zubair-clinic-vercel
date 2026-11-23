@@ -7,6 +7,7 @@ function field(value, maxLength) {
 
 module.exports = async (req, res) => {
   res.setHeader("Cache-Control", "no-store");
+  res.setHeader("Content-Type", "application/json; charset=utf-8");
 
   if (req.method !== "POST") {
     return res.status(405).json({ ok: false, error: "Method not allowed." });
