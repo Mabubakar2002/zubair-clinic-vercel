@@ -16,7 +16,7 @@ STEP 2 - VERCEL PAR DEPLOY
 STEP 3 - EMAIL CHALU KARNA (sirf ek baar)
 1. Updated files GitHub par push karke Vercel deployment complete hone dein.
 2. Live website par ek test booking bhejein. Pehli booking par FormSubmit activation email aa sakti hai (Spam bhi dekhein).
-3. Gmail (uawan6040@gmail.com) me "Activate Form" dabayein. Activation ke baad har booking FormSubmit ke AJAX endpoint se clinic email par bheji jayegi; website visitors ko login ki zaroorat nahi.
+3. Gmail (taimoorabdullahbrw2732@gmail.com) me FormSubmit ki activation email khol kar "Activate Form" dabayein. Email na mile to Spam folder bhi dekhein. Activation ke baad har booking clinic email par bheji jayegi; website visitors ko login ki zaroorat nahi.
 4. Agar pehli booking activation se pehle bheji gayi ho to activation ke baad dobara test karein.
 
 STEP 4 - REVIEWS WEBSITE PAR SAVE KARNA AUR MANAGE KARNA
@@ -25,4 +25,4 @@ STEP 4 - REVIEWS WEBSITE PAR SAVE KARNA AUR MANAGE KARNA
 3. Vercel Deployments me "Redeploy" karein. Ab client ka review Upstash me save hoga aur website par khud dikhai dega; reviews automatically delete/trim nahi honge.
 4. Apni website ke Client Reviews section me "Manage reviews" dabayein, REVIEW_ADMIN_PASSWORD enter karein, phir jis review ko hatana ho us ka "Delete review" dabayein. Public visitors sirf review likh sakte hain; delete ke liye admin passcode chahiye.
 5. Agar reviews pehle save huay thay, woh bhi maujood rahenge. Database connect na ho to review form error dikhayega; review ko saved hone ka ghalat confirmation nahi dega.
-Booking form activated FormSubmit AJAX endpoint ko browser se call karta hai, kyunki Vercel server se FormSubmit response 502 de raha tha. FormSubmit response successful hone par hi website booking sent dikhati hai. Email badalni ho to index.html me CLINIC_EMAIL dhoondh kar badal dein.
+Booking form activated FormSubmit AJAX endpoint ko browser se call karta hai, kyunki Vercel server se FormSubmit response 502 de raha tha. FormSubmit response successful hone par hi website booking sent dikhati hai. Email badalni ho to index.html aur api/booking.js dono me CLINIC_EMAIL update karein.

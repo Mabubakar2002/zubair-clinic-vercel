@@ -1,4 +1,4 @@
-const CLINIC_EMAIL = "uawan6040@gmail.com";
+const CLINIC_EMAIL = "taimoorabdullahbrw2732@gmail.com";
 const FORM_SUBMIT_URL = `https://formsubmit.co/ajax/${CLINIC_EMAIL}`;
 
 function field(value, maxLength) {
